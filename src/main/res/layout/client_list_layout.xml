@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Switch
+        android:id="@+id/clientSwitchId"
+        android:layout_width="305dp"
+        android:layout_height="56dp"
+        android:checked="false"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:splitTrack="false"
+        android:text="Switch"
+        tools:checked="false" />
+
+    <Button
+        android:id="@+id/addNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/button_note" />
+
+</LinearLayout>
